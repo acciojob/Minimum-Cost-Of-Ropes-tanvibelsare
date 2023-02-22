@@ -1,7 +1,7 @@
-function calculateMinCost() {
+function calculateMinCost(event) {
   //your code here
  
-  // a.preventDefault();
+   event.preventDefault();
   var inputElement = document.querySelector("input").value;
   var arr = inputElement.split(",");
   arr.sort(function (a, b) {
